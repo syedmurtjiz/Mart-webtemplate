@@ -7,6 +7,9 @@ import { CartDrawer } from "@/components/cart/CartDrawer";
 export const metadata: Metadata = {
   title: "FreshCart - Freshness Delivered",
   description: "Premium organic grocery store",
+  icons: {
+    icon: "/images/fac.ico",
+  },
 };
 
 export default function RootLayout({
